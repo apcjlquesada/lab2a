@@ -14,6 +14,21 @@
 <div class="container">
   <h1>Welcome to my Personal Page</h1>
   <p>Joe Gene Quesada</p>
+<?php
+//echo "My first PHP script!<br>";
+//$txt = "W3Schools.com";
+//echo "I love " . $txt . "!";
+
+
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $x) {
+  echo "$x <br>";
+}
+
+
+?>
+  
   
 </div>
 
